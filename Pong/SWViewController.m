@@ -11,35 +11,44 @@
 
 @implementation SWViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-    // Configure the view.
+- (void)viewWillLayoutSubviews {
+    
+    [super viewWillLayoutSubviews];
+    
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
     
-    // Create and configure the scene.
-    SKScene * scene = [SWMyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    if (!skView.scene) {
+        // Configure the view.
+
+//        skView.showsFPS = YES;
+//        skView.showsNodeCount = YES;
+        
+        // Create and configure the scene.
+        SKScene * scene = [SWMyScene sceneWithSize:skView.bounds.size];
+        scene.scaleMode = SKSceneScaleModeAspectFill;
+        
+        // Present the scene.
+        [skView presentScene:scene];
+    }
 }
 
-- (BOOL)shouldAutorotate
-{
+- (BOOL)shouldAutorotate {
+    
     return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
-{
+- (NSUInteger)supportedInterfaceOrientations {
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         return UIInterfaceOrientationMaskAllButUpsideDown;
     } else {
         return UIInterfaceOrientationMaskAll;
     }
+}
+
+- (BOOL)prefersStatusBarHidden {
+    
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning
