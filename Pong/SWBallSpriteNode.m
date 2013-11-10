@@ -8,16 +8,29 @@
 
 #import "SWBallSpriteNode.h"
 
+#import "SKColor+SWColors.h"
+
 @implementation SWBallSpriteNode
 
-- (id)init {
+- (id)initWithPosition:(CGPoint)position Velocity:(CGPoint)velocity {
+    self = [self initWithColor:[SKColor paddleColor] size:CGSizeMake(10, 10)];
     
     if (self) {
-    
-        [self initWithColor:paddleColour size:CGSizeMake(10, 10)]
+        
     }
 
     return self;
+}
+
+- (void)increaseVelocity
+{
+    if (self.velocity.y > 0) {
+      
+        self.velocity = CGPointMake(self.velocity.x, self.velocity.y + 2);
+    } else {
+        
+        self.velocity = CGPointMake(self.velocity.x, self.velocity.y - 2);
+    }
 }
 
 @end

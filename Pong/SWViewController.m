@@ -18,10 +18,6 @@
     SKView * skView = (SKView *)self.view;
     
     if (!skView.scene) {
-        // Configure the view.
-
-//        skView.showsFPS = YES;
-//        skView.showsNodeCount = YES;
         
         // Create and configure the scene.
         SKScene * scene = [SWMyScene sceneWithSize:skView.bounds.size];
@@ -40,7 +36,7 @@
 - (NSUInteger)supportedInterfaceOrientations {
     
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
+        return UIInterfaceOrientationMaskPortrait;
     } else {
         return UIInterfaceOrientationMaskAll;
     }
@@ -49,12 +45,6 @@
 - (BOOL)prefersStatusBarHidden {
     
     return YES;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
 }
 
 @end

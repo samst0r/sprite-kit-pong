@@ -27,6 +27,9 @@
 		2245B465181ADD3500856191 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2245B463181ADD3500856191 /* InfoPlist.strings */; };
 		2245B467181ADD3500856191 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245B466181ADD3500856191 /* PongTests.m */; };
 		2245B472181AEDEE00856191 /* SWGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245B471181AEDEE00856191 /* SWGameOverScene.m */; };
+		22DE1082182FEAB900AEAB19 /* SWPaddleSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1081182FEAB900AEAB19 /* SWPaddleSpriteNode.m */; };
+		22DE1085182FEB7E00AEAB19 /* SWGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1084182FEB7E00AEAB19 /* SWGameObject.m */; };
+		22DE1089182FFAC000AEAB19 /* SWScoreLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1088182FFAC000AEAB19 /* SWScoreLabelNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,12 @@
 		2245B466181ADD3500856191 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
 		2245B470181AEDEE00856191 /* SWGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGameOverScene.h; sourceTree = "<group>"; };
 		2245B471181AEDEE00856191 /* SWGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGameOverScene.m; sourceTree = "<group>"; };
+		22DE1080182FEAB900AEAB19 /* SWPaddleSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPaddleSpriteNode.h; sourceTree = "<group>"; };
+		22DE1081182FEAB900AEAB19 /* SWPaddleSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPaddleSpriteNode.m; sourceTree = "<group>"; };
+		22DE1083182FEB7E00AEAB19 /* SWGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGameObject.h; sourceTree = "<group>"; };
+		22DE1084182FEB7E00AEAB19 /* SWGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGameObject.m; sourceTree = "<group>"; };
+		22DE1087182FFAC000AEAB19 /* SWScoreLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWScoreLabelNode.h; sourceTree = "<group>"; };
+		22DE1088182FFAC000AEAB19 /* SWScoreLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScoreLabelNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,22 +139,15 @@
 		2245B439181ADD3400856191 /* Pong */ = {
 			isa = PBXGroup;
 			children = (
+				22C8C64F182E5FDF00F499C2 /* Categories */,
+				22FEB935182EADF000A2B724 /* Scenes */,
+				22DE1086182FEDAC00AEAB19 /* Sprites */,
+				2245B43A181ADD3400856191 /* Supporting Files */,
 				2245B442181ADD3400856191 /* SWAppDelegate.h */,
 				2245B443181ADD3400856191 /* SWAppDelegate.m */,
-				2245B445181ADD3400856191 /* Main_iPhone.storyboard */,
-				2245B448181ADD3500856191 /* Main_iPad.storyboard */,
 				2245B44B181ADD3500856191 /* SWViewController.h */,
 				2245B44C181ADD3500856191 /* SWViewController.m */,
-				2245B44E181ADD3500856191 /* SWMyScene.h */,
-				2245B44F181ADD3500856191 /* SWMyScene.m */,
-				2245B453181ADD3500856191 /* Images.xcassets */,
-				2245B43A181ADD3400856191 /* Supporting Files */,
-				2245B470181AEDEE00856191 /* SWGameOverScene.h */,
-				2245B471181AEDEE00856191 /* SWGameOverScene.m */,
-				22427132181DBB7400919BFB /* SWBallSpriteNode.h */,
-				22427133181DBB7400919BFB /* SWBallSpriteNode.m */,
-				2242713E181DBC9B00919BFB /* SKColor+SWColors.h */,
-				2242713F181DBC9B00919BFB /* SKColor+SWColors.m */,
+				22FEB937182EC8E100A2B724 /* Resources */,
 			);
 			path = Pong;
 			sourceTree = "<group>";
@@ -177,6 +179,59 @@
 				2245B463181ADD3500856191 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C8C64F182E5FDF00F499C2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2242713E181DBC9B00919BFB /* SKColor+SWColors.h */,
+				2242713F181DBC9B00919BFB /* SKColor+SWColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		22DE1086182FEDAC00AEAB19 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				22427132181DBB7400919BFB /* SWBallSpriteNode.h */,
+				22427133181DBB7400919BFB /* SWBallSpriteNode.m */,
+				22DE1083182FEB7E00AEAB19 /* SWGameObject.h */,
+				22DE1084182FEB7E00AEAB19 /* SWGameObject.m */,
+				22DE1080182FEAB900AEAB19 /* SWPaddleSpriteNode.h */,
+				22DE1081182FEAB900AEAB19 /* SWPaddleSpriteNode.m */,
+				22DE1087182FFAC000AEAB19 /* SWScoreLabelNode.h */,
+				22DE1088182FFAC000AEAB19 /* SWScoreLabelNode.m */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		22FEB935182EADF000A2B724 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2245B44E181ADD3500856191 /* SWMyScene.h */,
+				2245B44F181ADD3500856191 /* SWMyScene.m */,
+				2245B470181AEDEE00856191 /* SWGameOverScene.h */,
+				2245B471181AEDEE00856191 /* SWGameOverScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		22FEB936182EC81800A2B724 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2245B445181ADD3400856191 /* Main_iPhone.storyboard */,
+				2245B448181ADD3500856191 /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		22FEB937182EC8E100A2B724 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22FEB936182EC81800A2B724 /* Storyboards */,
+				2245B453181ADD3500856191 /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,13 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DE1082182FEAB900AEAB19 /* SWPaddleSpriteNode.m in Sources */,
 				2245B472181AEDEE00856191 /* SWGameOverScene.m in Sources */,
 				2245B450181ADD3500856191 /* SWMyScene.m in Sources */,
+				22DE1085182FEB7E00AEAB19 /* SWGameObject.m in Sources */,
 				22427140181DBC9B00919BFB /* SKColor+SWColors.m in Sources */,
 				2245B44D181ADD3500856191 /* SWViewController.m in Sources */,
 				22427134181DBB7400919BFB /* SWBallSpriteNode.m in Sources */,
 				2245B444181ADD3400856191 /* SWAppDelegate.m in Sources */,
 				2245B440181ADD3400856191 /* main.m in Sources */,
+				22DE1089182FFAC000AEAB19 /* SWScoreLabelNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

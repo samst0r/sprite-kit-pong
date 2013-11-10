@@ -7,9 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "SWGameObject.h"
 
-@interface SWBallSpriteNode : SKSpriteNode
+@interface SWBallSpriteNode : SWGameObject
 
-@property (nonatomic) CGPoint velocity;
+- (id)initWithPosition:(CGPoint)position Velocity:(CGPoint)velocity;
+-(void) increaseVelocity;
 
 @end

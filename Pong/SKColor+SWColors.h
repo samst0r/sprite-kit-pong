@@ -7,7 +7,11 @@
 //
 
 
+#import <SpriteKit/SpriteKit.h>
 
 @interface SKColor (SWColors)
+
++ (SKColor *)backgroundColor;
++ (SKColor *)paddleColor;
 
 @end
