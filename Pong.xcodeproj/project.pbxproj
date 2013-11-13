@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22427134181DBB7400919BFB /* SWBallSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22427133181DBB7400919BFB /* SWBallSpriteNode.m */; };
-		22427140181DBC9B00919BFB /* SKColor+SWColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2242713F181DBC9B00919BFB /* SKColor+SWColors.m */; };
 		2245B432181ADD3400856191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2245B431181ADD3400856191 /* Foundation.framework */; };
 		2245B434181ADD3400856191 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2245B433181ADD3400856191 /* CoreGraphics.framework */; };
 		2245B436181ADD3400856191 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2245B435181ADD3400856191 /* UIKit.framework */; };
@@ -19,17 +17,19 @@
 		2245B447181ADD3500856191 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2245B445181ADD3400856191 /* Main_iPhone.storyboard */; };
 		2245B44A181ADD3500856191 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2245B448181ADD3500856191 /* Main_iPad.storyboard */; };
 		2245B44D181ADD3500856191 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245B44C181ADD3500856191 /* SWViewController.m */; };
-		2245B450181ADD3500856191 /* SWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245B44F181ADD3500856191 /* SWMyScene.m */; };
 		2245B454181ADD3500856191 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2245B453181ADD3500856191 /* Images.xcassets */; };
 		2245B45B181ADD3500856191 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2245B45A181ADD3500856191 /* XCTest.framework */; };
 		2245B45C181ADD3500856191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2245B431181ADD3400856191 /* Foundation.framework */; };
 		2245B45D181ADD3500856191 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2245B435181ADD3400856191 /* UIKit.framework */; };
 		2245B465181ADD3500856191 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2245B463181ADD3500856191 /* InfoPlist.strings */; };
 		2245B467181ADD3500856191 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245B466181ADD3500856191 /* PongTests.m */; };
-		2245B472181AEDEE00856191 /* SWGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245B471181AEDEE00856191 /* SWGameOverScene.m */; };
-		22DE1082182FEAB900AEAB19 /* SWPaddleSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1081182FEAB900AEAB19 /* SWPaddleSpriteNode.m */; };
-		22DE1085182FEB7E00AEAB19 /* SWGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1084182FEB7E00AEAB19 /* SWGameObject.m */; };
-		22DE1089182FFAC000AEAB19 /* SWScoreLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE1088182FFAC000AEAB19 /* SWScoreLabelNode.m */; };
+		22E35ABC1832FEED0052226A /* SKColor+SWColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35ABB1832FEED0052226A /* SKColor+SWColors.m */; };
+		22E35AC51832FF790052226A /* SWBallSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35ABE1832FF790052226A /* SWBallSpriteNode.m */; };
+		22E35AC61832FF790052226A /* SWGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35AC01832FF790052226A /* SWGameObject.m */; };
+		22E35AC71832FF790052226A /* SWPaddleSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35AC21832FF790052226A /* SWPaddleSpriteNode.m */; };
+		22E35AC81832FF790052226A /* SWScoreLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35AC41832FF790052226A /* SWScoreLabelNode.m */; };
+		22E35ACD1832FF7F0052226A /* SWGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35ACA1832FF7F0052226A /* SWGameOverScene.m */; };
+		22E35ACE1832FF7F0052226A /* SWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E35ACC1832FF7F0052226A /* SWMyScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22427132181DBB7400919BFB /* SWBallSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBallSpriteNode.h; sourceTree = "<group>"; };
-		22427133181DBB7400919BFB /* SWBallSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBallSpriteNode.m; sourceTree = "<group>"; };
-		2242713E181DBC9B00919BFB /* SKColor+SWColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKColor+SWColors.h"; sourceTree = "<group>"; };
-		2242713F181DBC9B00919BFB /* SKColor+SWColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKColor+SWColors.m"; sourceTree = "<group>"; };
 		2245B42E181ADD3400856191 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2245B431181ADD3400856191 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2245B433181ADD3400856191 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,22 +58,26 @@
 		2245B449181ADD3500856191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		2245B44B181ADD3500856191 /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
 		2245B44C181ADD3500856191 /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
-		2245B44E181ADD3500856191 /* SWMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWMyScene.h; sourceTree = "<group>"; };
-		2245B44F181ADD3500856191 /* SWMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWMyScene.m; sourceTree = "<group>"; };
 		2245B453181ADD3500856191 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2245B459181ADD3500856191 /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2245B45A181ADD3500856191 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2245B462181ADD3500856191 /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
 		2245B464181ADD3500856191 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2245B466181ADD3500856191 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
-		2245B470181AEDEE00856191 /* SWGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGameOverScene.h; sourceTree = "<group>"; };
-		2245B471181AEDEE00856191 /* SWGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGameOverScene.m; sourceTree = "<group>"; };
-		22DE1080182FEAB900AEAB19 /* SWPaddleSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPaddleSpriteNode.h; sourceTree = "<group>"; };
-		22DE1081182FEAB900AEAB19 /* SWPaddleSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPaddleSpriteNode.m; sourceTree = "<group>"; };
-		22DE1083182FEB7E00AEAB19 /* SWGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWGameObject.h; sourceTree = "<group>"; };
-		22DE1084182FEB7E00AEAB19 /* SWGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWGameObject.m; sourceTree = "<group>"; };
-		22DE1087182FFAC000AEAB19 /* SWScoreLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWScoreLabelNode.h; sourceTree = "<group>"; };
-		22DE1088182FFAC000AEAB19 /* SWScoreLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScoreLabelNode.m; sourceTree = "<group>"; };
+		22E35ABA1832FEED0052226A /* SKColor+SWColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKColor+SWColors.h"; path = "Categories/SKColor+SWColors.h"; sourceTree = "<group>"; };
+		22E35ABB1832FEED0052226A /* SKColor+SWColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKColor+SWColors.m"; path = "Categories/SKColor+SWColors.m"; sourceTree = "<group>"; };
+		22E35ABD1832FF790052226A /* SWBallSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWBallSpriteNode.h; path = Sprites/SWBallSpriteNode.h; sourceTree = "<group>"; };
+		22E35ABE1832FF790052226A /* SWBallSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWBallSpriteNode.m; path = Sprites/SWBallSpriteNode.m; sourceTree = "<group>"; };
+		22E35ABF1832FF790052226A /* SWGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWGameObject.h; path = Sprites/SWGameObject.h; sourceTree = "<group>"; };
+		22E35AC01832FF790052226A /* SWGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWGameObject.m; path = Sprites/SWGameObject.m; sourceTree = "<group>"; };
+		22E35AC11832FF790052226A /* SWPaddleSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWPaddleSpriteNode.h; path = Sprites/SWPaddleSpriteNode.h; sourceTree = "<group>"; };
+		22E35AC21832FF790052226A /* SWPaddleSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWPaddleSpriteNode.m; path = Sprites/SWPaddleSpriteNode.m; sourceTree = "<group>"; };
+		22E35AC31832FF790052226A /* SWScoreLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWScoreLabelNode.h; path = Sprites/SWScoreLabelNode.h; sourceTree = "<group>"; };
+		22E35AC41832FF790052226A /* SWScoreLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWScoreLabelNode.m; path = Sprites/SWScoreLabelNode.m; sourceTree = "<group>"; };
+		22E35AC91832FF7F0052226A /* SWGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWGameOverScene.h; path = Scenes/SWGameOverScene.h; sourceTree = "<group>"; };
+		22E35ACA1832FF7F0052226A /* SWGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWGameOverScene.m; path = Scenes/SWGameOverScene.m; sourceTree = "<group>"; };
+		22E35ACB1832FF7F0052226A /* SWMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWMyScene.h; path = Scenes/SWMyScene.h; sourceTree = "<group>"; };
+		22E35ACC1832FF7F0052226A /* SWMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWMyScene.m; path = Scenes/SWMyScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +184,8 @@
 		22C8C64F182E5FDF00F499C2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				2242713E181DBC9B00919BFB /* SKColor+SWColors.h */,
-				2242713F181DBC9B00919BFB /* SKColor+SWColors.m */,
+				22E35ABA1832FEED0052226A /* SKColor+SWColors.h */,
+				22E35ABB1832FEED0052226A /* SKColor+SWColors.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -193,14 +193,14 @@
 		22DE1086182FEDAC00AEAB19 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
-				22427132181DBB7400919BFB /* SWBallSpriteNode.h */,
-				22427133181DBB7400919BFB /* SWBallSpriteNode.m */,
-				22DE1083182FEB7E00AEAB19 /* SWGameObject.h */,
-				22DE1084182FEB7E00AEAB19 /* SWGameObject.m */,
-				22DE1080182FEAB900AEAB19 /* SWPaddleSpriteNode.h */,
-				22DE1081182FEAB900AEAB19 /* SWPaddleSpriteNode.m */,
-				22DE1087182FFAC000AEAB19 /* SWScoreLabelNode.h */,
-				22DE1088182FFAC000AEAB19 /* SWScoreLabelNode.m */,
+				22E35ABD1832FF790052226A /* SWBallSpriteNode.h */,
+				22E35ABE1832FF790052226A /* SWBallSpriteNode.m */,
+				22E35ABF1832FF790052226A /* SWGameObject.h */,
+				22E35AC01832FF790052226A /* SWGameObject.m */,
+				22E35AC11832FF790052226A /* SWPaddleSpriteNode.h */,
+				22E35AC21832FF790052226A /* SWPaddleSpriteNode.m */,
+				22E35AC31832FF790052226A /* SWScoreLabelNode.h */,
+				22E35AC41832FF790052226A /* SWScoreLabelNode.m */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -208,10 +208,10 @@
 		22FEB935182EADF000A2B724 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				2245B44E181ADD3500856191 /* SWMyScene.h */,
-				2245B44F181ADD3500856191 /* SWMyScene.m */,
-				2245B470181AEDEE00856191 /* SWGameOverScene.h */,
-				2245B471181AEDEE00856191 /* SWGameOverScene.m */,
+				22E35AC91832FF7F0052226A /* SWGameOverScene.h */,
+				22E35ACA1832FF7F0052226A /* SWGameOverScene.m */,
+				22E35ACB1832FF7F0052226A /* SWMyScene.h */,
+				22E35ACC1832FF7F0052226A /* SWMyScene.m */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -333,16 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DE1082182FEAB900AEAB19 /* SWPaddleSpriteNode.m in Sources */,
-				2245B472181AEDEE00856191 /* SWGameOverScene.m in Sources */,
-				2245B450181ADD3500856191 /* SWMyScene.m in Sources */,
-				22DE1085182FEB7E00AEAB19 /* SWGameObject.m in Sources */,
-				22427140181DBC9B00919BFB /* SKColor+SWColors.m in Sources */,
+				22E35ACE1832FF7F0052226A /* SWMyScene.m in Sources */,
+				22E35ACD1832FF7F0052226A /* SWGameOverScene.m in Sources */,
 				2245B44D181ADD3500856191 /* SWViewController.m in Sources */,
-				22427134181DBB7400919BFB /* SWBallSpriteNode.m in Sources */,
+				22E35AC81832FF790052226A /* SWScoreLabelNode.m in Sources */,
 				2245B444181ADD3400856191 /* SWAppDelegate.m in Sources */,
+				22E35AC61832FF790052226A /* SWGameObject.m in Sources */,
+				22E35ABC1832FEED0052226A /* SKColor+SWColors.m in Sources */,
 				2245B440181ADD3400856191 /* main.m in Sources */,
-				22DE1089182FFAC000AEAB19 /* SWScoreLabelNode.m in Sources */,
+				22E35AC71832FF790052226A /* SWPaddleSpriteNode.m in Sources */,
+				22E35AC51832FF790052226A /* SWBallSpriteNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
